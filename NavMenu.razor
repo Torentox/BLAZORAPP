@@ -1,0 +1,66 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorApp</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Домашняя Страница
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Тап-тап-тап по хомяку
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Погода
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <a  class="nav-link" href="/LearnBlazor/blindProd">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Новости
+            </a>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/sdachakvartir">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Сдача крутых квартир
+                </a>
+            </div>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/sovetdnya">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Совет дня
+                </a>
+            </div>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/GKHLOL">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> ЖКХ
+                </a>
+            </div>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/INFORMATION">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Отключение воды/э/э
+                </a>
+            </div>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/Papa">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Главный отец
+                </a>
+            </div>
+            <div class="nav-item px-3">
+                <a class="nav-link" href="/CONTACTUS">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Контакты
+                   
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+

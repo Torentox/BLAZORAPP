@@ -1,0 +1,19 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>дотапался?</PageTitle>
+
+<h1>Затапай меня!</h1>
+
+<p role="status">ТАПАЙ ТАПАЙ: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Чего же ты ждешь, убей эту кнопку нажатием!</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
